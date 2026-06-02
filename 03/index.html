@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polaris Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1 class="logo" id="logo">Polarislabs</h1>
+            <p class="sublogo">Student Portal</p>
+        </div>
+        <div class="right-work">
+            <div class="search-container"><svg xmlns="http://www.w3.org/2000/svg" class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg><input type="text" placeholder="Search courses, assignments..." class="search" /></div>
+            
+            <div class="gear"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true"><path d="M10.268 21a2 2 0 0 0 3.464 0"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"></path></svg></div>
+            <div class="gear"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"></path><circle cx="12" cy="12" r="3"></circle></svg> </div>
+            <div class="drop">
+                <div class="avatar">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user h-3 w-3 sm:h-4 sm:w-4 text-black" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </div>
+                <div class="drop-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-3 w-3 sm:h-4 sm:w-4 text-gray-400 hidden sm:block" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-area">
+        <div class="topper">
+            <div class="heading">
+               <h1 class="greet">Welcome back, John!</h1>
+               <p class="sub-greet">Track your progress and upcoming classes.</p>
+            </div>
+            <div class="re-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw h-5 w-5" aria-hidden="true"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></svg>
+            </div>
+        </div>
+        <div class="navbar">
+            <button class="active">Overview</button>
+            <button class="tabs">My schedule</button>
+            <button class="tabs">Assignments</button>
+            <button class="tabs">Recordings</button>
+        </div>
+        <div class="grid-cont">
+            <div class="grid-item">
+                <div class="grid-icon ic1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-5 h-5" aria-hidden="true"><path d="M12 6v6l4 2"></path><circle cx="12" cy="12" r="10"></circle></svg></div>
+                <div class="content-container"><div class="grid-heading">Total sessions</div>
+                <div class="grid-content">7</div></div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-icon ic2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-5 h-5" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg></div>
+                <div class="content-container"><div class="grid-heading">Sessions attended</div>
+                <div class="grid-content">5</div></div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-icon ic3"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open w-5 h-5" aria-hidden="true"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></div>
+                <div class="content-container"><div class="grid-heading">Enrolled batches</div>
+                <div class="grid-content">1</div></div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-icon ic4"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar w-5 h-5" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg></div>
+                <div class="content-container"><div class="grid-heading">Live &amp; Upcoming</div>
+                <div class="grid-content">2</div></div>
+            </div>
+        </div>
+        <div class="grid-cont2">
+            <div class="lauc">
+                <h2 class="htop">Live &amp; Upcoming Sessions</h2>
+                <div class="lauc-item1">
+                    <p class="item-text">Numpy</p>
+                    <p class="item-subtext">Today, 2:00 PM - 3:00 PM</p>
+                </div>
+                <div class="lauc-item2">
+                    <p class="item-text">Pandas</p>
+                    <p class="item-subtext">Tomorrow, 10:00 AM - 11:00 AM</p>
+                </div>
+            </div>
+            <div class="al">
+                <h2 class="htop">🔥 Attendance leaderboard</h2>
+                <div class="al-item">1. Abhishek</div> 
+                <div class="al-item">2. Riya</div> 
+                <div class="al-item">3. Aryan</div> 
+                <div class="al-item">4. Zara</div> 
+                <div class="al-item">5. Vihaan</div> 
+                <div class="al-item">6. Saanvi</div> 
+                <div class="al-item">7. Arjun</div> 
+                <div class="al-item">8. Ananya</div> 
+                <div class="al-item">9. Kabir</div> 
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

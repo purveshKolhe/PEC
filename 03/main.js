@@ -13,3 +13,7 @@ document.getElementsByClassName('cross')[0].addEventListener("click", function()
     document.getElementsByClassName('unavail')[0].style.display = 'none';
     document.getElementsByClassName('backdrop')[0].style.display = 'none';
 });
+document.querySelector('.pencil').addEventListener("click", function() {
+    let abc = prompt("You clicked the pencil icon!");
+    document.querySelector('.nop').innerHTML = abc;
+});

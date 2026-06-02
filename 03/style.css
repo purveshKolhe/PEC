@@ -295,3 +295,21 @@ hr {
     background-color: #00000030;
     display: none;
 }
+.namee {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.pencil {
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+    color: #919191;
+    cursor: pointer;
+}
+.pencil:hover {
+    color: #ffffff;
+    width: 22px;
+    height: 22px;
+}

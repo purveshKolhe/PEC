@@ -1,0 +1,33 @@
+.header {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #ffa4a4, #f243b5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #eaefe9;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+}
+.cont {
+    display: flex;
+    border: 4px solid rgb(208, 0, 0);
+}
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(208, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
